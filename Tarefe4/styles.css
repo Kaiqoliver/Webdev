@@ -1,0 +1,84 @@
+body{
+    font-family: 'Source Sans Pro', Courier, monospace;
+    background-image: url('fundo.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: white;
+}
+#pagina_total{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#barra_lateral{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    flex-flow: column wrap;
+    align-content: flex-end;
+    width: 15%;
+    padding: 30px;
+    background-color: rgb(53, 33, 33);
+}
+#barra_lateral a:hover{
+    color: gray;
+    transition: 0.5s;
+}
+#barra_lateral a{
+    transition: 0.5s;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+#foto_rosto{
+    width: 200px;
+    display: flex;
+    margin: 0 25px;
+}
+
+#organizacao{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#texto_lateral{
+    width: 400px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+#header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,100%);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+#header a:hover{
+    color: gray;
+    transition: 0.5s;
+}
+#header a{
+    transition: 0.5s;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1,h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+li{
+    font-size: 25px;
+}
