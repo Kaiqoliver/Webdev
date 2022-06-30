@@ -19,6 +19,7 @@ body{
     align-content: flex-end;
     width: 15%;
     padding: 30px;
+    padding-top: 10px;
     background-color: rgb(53, 33, 33);
 }
 #barra_lateral a:hover{
@@ -81,4 +82,60 @@ h1,h2{
 
 li{
     font-size: 25px;
+}
+
+@media screen and (max-width: 900px){
+    #pagina_total{
+        display: grid;
+    }
+    #barra_lateral{
+        flex-flow: row;
+        width: 90%;
+        margin: 5px;
+        padding-bottom: 0px;
+    }
+}
+@media screen and (max-width: 650px){
+    #organizacao{
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+    #foto_rosto{
+        width: 200px;
+        display: flex;
+        margin-left: 25%;
+    }
+    #pagina_total{
+        justify-content: center;
+        align-content: center;
+    }
+    #barra_lateral{
+        flex-flow: column;
+        width: 80%;
+        margin: 50px;
+        padding: 0px;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+}
+@media screen and (max-width: 420px){
+    #texto_lateral{
+        font-size: 20px;
+        width: 300px;
+    }
+    #foto_rosto{
+        width: 200px;
+        display: flex;
+        margin-left: 15%;
+    }
+    h1,h2{
+        font-size: 20px;
+    }
+    
+    li{
+        font-size: 20px;
+    }
+
 }
